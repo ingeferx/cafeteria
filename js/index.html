@@ -1,144 +1,189 @@
+<!--
+    Programador:Alejandro Caval
+    revicion:no
+    fecha:18/04/2024
+    detalle: Este el index de mi pagina web 
+-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF -8">
-    <meta name="viewport" content="width=device -width, initial -scale=1.0">
-    <link rel-"stylesheet" href-"estilos/estilos . css">
-    <link
-        href="https:// fonts. googleapis. com/css2 ? fami ly=Open+Sans: ital, wght@e, 300..8e0;1,30e. .800&display=swap"
-        rel="stylesheet ">
-    <title>Cafe Dulce Aroma </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">    
+    <title>Cafeteria DulceAroma</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <nav>
-                <a href="#* id=" btn- acerca-de">Acerca de</a>
-                <a href="#" id="btn -menu">Menú</a>
-                <a href="#" id="btn-galeria">Galería</a>
-                <a href="" id="btn-ubicacion">Ubicación</a>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menú</a>
+                <a href="#" id="btn-galeia">Galería</a>
+                <a href="#" id="btn-ubicacion">Ubicación</a>
             </nav>
             <div>
-                <h1>Cafe <span>Dulce Aroma</span></h1>
+                <h1>Café <span>Dulce Aroma</span></h1>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
             </div>
         </div>
     </header>
-    <!--Seccion main-->
+    <!--Section main-->
     <section>
-        <!--Sección Acerca de-->
+        <!--Seccion Acerca de-->
         <section>
             <div>
                 <div>
-                    <img src="imagenes/acerca-de.jpg" alt="Acerca de ">
+                    <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.51.jpeg" alt="Imagen de cafeteria" id="img">
                 </div>
                 <article>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum esse quia omnis earum. Tenetur
-                        minus reiciendis voluptates magni aut, error magnam doloribus, modi rem corporis dolor
-                        blanditiis provident, nulla distinctio. </p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia dolor doloribus rem nostrum
-                        laborios am magni voluptas corporis voluptate error et sit architecto a, cumque possimus
-                        reprehenderit iure placeat aut quas?k/p>
+                    <p class="texto-central">El buen café endulzado, delicioso es más que mil besos, dulce sabe cual
+                        vino moscatel, café, sí, ¡es café lo que quiero! <br>
+                        Y quien deseare darme a saborear una exquisita bebida, venga a ofrecerme una taza de café <br>
+                        Johann Sebastian Bach
+                    </p>
+                    <p class="texto-central">La vida es como una taza de café. Todo está en cómo la preparas, <br>
+                        pero sobre todo en cómo la tomas.
+                        Anónimo
+                    </p>
                 </article>
             </div>
+            <hr>
         </section>
-        <!--./fin aacerca de-->
-        <!--Inicio Menú-->
-        <!--./ Fin de la sección comer-->
-        <article>
-            <p class="categoria">Bebidas</p>
-            <div class=" platillo">
-                <p class="nombre">Jugos Naturales</p>
-                <p class="precio">4.00</p>
-                <p class="descripcion">Tenemnos jugos naturales,
-                    batidos con leche
-                </p>
+        <!--Fin acerca de -->
+        <!--Fin menu-->
+        <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platillos">.... Menú .....</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">De comer</p>
+                            <div class="platos">
+                                <p class="nombre">Postre 1: Pie de limon</p>
+                                <p class="precio">Precio: $8.50</p>
+                                <p class="descripcion">Rico postre de limon
+                                </p>
+                            </div>
+                            <div class="platos">
+                                <p class="nombre">Postre 2: chiscake</p>
+                                <p class="precio">Precio: $3.50</p>
+                                <p class="descripcion">postre de frutos rojos <br>
+                                </p>
+                            </div>
+                            <div class="platos">
+                                <p class="nombre">Postre 3: sandwitch</p>
+                                <p class="precio">$4.50</p>
+                                <p class="descripcion">sandwitch de jamon y queso
+                                </p>
+                            </div>
+                            <div class="platos">
+                                <p class="nombre">Postre 4: pastel</p>
+                                <p class="precio">$6.50</p>
+                                <p class="descripcion">deliciosos pedazos de pasteles
+                                </p>
+                            </div>
+                        </article>
+                        <!--Fin de la secion comer-->
+                        <article>
+                            <p class="categoria">... Bebidas ...</p>
+                            <div class="platos">
+                                <p class="nombre">Cafe americano</p>
+                                <p class="precio">$2.50</p>
+                                <p class="descripcion">Cafe en agua muy cargado
+                                    
+                                </p>
+                            </div>
+                            <div class="platos">
+                                <p class="nombre">Capuchino</p>
+                                <p class="precio">$5.00</p>
+                                <p class="descripcion">Cafe con leche y crema
+                                </p>
+                            </div>
+                            <div class="platos">
+                                <p class="nombre">Mocaccino</p>
+                                <p class="precio">$3.00</p>
+                                <p class="descripcion">Cafe con leche y chocolate 
+                                </p>
+                            </div>
+                            <div class="platos">
+                                <p class="nombre">Limonadas</p>
+                                <p class="precio">$2.50</p>
+                                <p class="descripcion">Elije fria o al clima.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
-            <div class="platillo">
-                <p clas5="nombre">Colas Personales</p>
-                <p class="precio">$1.08</p>
-                <p class="descripcion ">El arroz con camarón tiene los siguientes ingredientes
-                    arroz, camarón
-                </p>
+        </section>
+        <!--Fin de menú-->
+        <!--Inicio de galería-->
+        <hr>
+        <h1 class="titulo-galeria">Galeria </h1>
+
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.49 (1).jpeg" alt="" class="foto">
             </div>
-            <div class=" platillo">
-                <p class="nombre">Pilsener</p>
-                <p class="precio">$3 .08</p>
-                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
-                    arroz, camarón
-                </p>
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.49 (2).jpeg" alt="" class="foto">
             </div>
-            <div class=" platillo">
-                <p class="nombre">Limonadas</p>
-                <p class="precio">$2.50</p>
-                <p class="descripcion">El arroz con camarón tiene los siguientes ingredientes
-                    arroz, camarón
-                </p>
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.49.jpeg" alt="" class="foto">
             </div>
-        </article>
-        </div>
-        </div>
-        </div>
-    </section>
-    <!--./FIn Menú-->
-    <!--Inicio Galería-->
-    <section class="galeria" id="galeria">
-        <div class="foto">
-            <img src=" imagenes/1.jpg" alt-"">
-        </div>
-        <div class="foto">
-            <img src=" imagenes/2.jpg" alt="">
-        </div>
-        <div class="foto">
-            <img src=" imagenes/3-jpg" alt="">
-        </div>
-        <div class="foto">
-            <img src=" imagenes /4 . jpg" alt="">
-        </div>
-        <div class="foto">
-            <img src=" imagenes/5.jpg" alt-"">
-        </div>
-        <div class="foto">
-            <img src=" imagenes/6.jpg" alt="">
-        </div>
-        <div class="foto">
-            <img src=" imagenes/7.jpg" alt="">
-        </div>
-        <div class="foto">
-            <img src=" imagenes/8.jpg" alt="">
-        </div>
-    </section>
-    <!--Sección unbicación-->
-    <section class="ubicacion" id="ubicacion">
-        <div class=" contenedor">
-            <h3 class="titulo">Ubicaciốn</h3>
-        </div>
-        <div class="direccion">
-            <p clas5="calle">E5D <br />s48-520</p><br>
-            <p clas5="telefono"> (+593) 0992628980</p>
-            <p class=" correo"> cafe@gmail.com</p>
-        </div>
-        <div class="horarios ">
-            <h4>Horarios</h4>
-            <p class=" entre - semana">Lunes a Viernes <br> 7:00- 21:00</p>
-            <p class="fin-semana">Sábados y Domingo <br> 11:00 - 23:00</p>
-        </div>
-    </section>
-    <!--./Fin contactos-->
-    <!--inicio Mapa-->
-    <section class="mapa">
-        <iframe src="https://www.google.com/maps/place/La+Esperanza,+Quito/@-0.0810823,-78.4490927,16z/data=!3m1!4b1!4m6!3m5!1s0x91d58f30f561aac1:0x7e6dbf274a1da8c8!8m2!3d-0.0806013!4d-78.4432214!16s%2Fg%2F121qm7y6?entry=ttu" width=" 809" height="600" style="border :e;" allowfullscreen="* loading=" lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <!--fin sección mapa-->
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.50 (1).jpeg" alt="" class="foto">
+            </div>
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.50 (2).jpeg" alt="" class="foto">
+            </div>
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.50 (4).jpeg" alt="" class="foto">
+            </div>
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.50 (3).jpeg" alt="" class="foto">
+            </div>
+            <div class="foto">
+                <img src="imagenes/WhatsApp Image 2024-04-17 at 19.40.51 (2).jpeg" alt="" class="foto">
+            </div>
+        </section>
+        <hr>
+        <!--Sección ubiación-->
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicación</h3>
+            </div>
+            <div class="direccion">
+                <p class="calle">E5D <br />548-520</p><br>
+                <p class="telefono">(+593) 0992628700</p>
+                <p class="correo"> cafe@gmil.com</p>
+            </div>
+            <div class="horarios">
+                <h4>horarios</h4>
+                <p class="entre-semana">Lunes a Viernes <br> 7:00 - 22:00</p>
+                <p class="fin-semana">Sábados y Domingo <br> 10:00 - 20:00</p>
+            </div>
+
+        </section>
+        <!--Fin contactos-->
+        <!--Inicio mapa-->
+        <section class="mapa">
+            <iframe src="https://maps.app.goo.gl/reNwv1yiTP9eSFVt7" width="800" height="600" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrande">
+            </iframe>
+        </section>
+        <!--finde mapa-->
+
     </section>
     <!--fin seccion main-->
     <footer>
-        <div class="contenedor">
-            <div class=" copyright">
-                <p>&COPY; Todos los derechos reservados Davitron 2024 </p>
+        <div class="contendeorf">
+            <div class="copyrigh">
+                <p>&copy; Todos los derechos recervados yo 2024</p>
             </div>
         </div>
     </footer>
