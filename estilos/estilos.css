@@ -23,11 +23,7 @@ body {
 header {
     width: 100%;
     border: 1px solid red;
-<<<<<<< HEAD
     background: url('../imagenes/bg.jpg') #281a0c;
-=======
-    background: url('../imagenes/bg.jpeg') #281a0c;
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
@@ -86,11 +82,7 @@ header .texto h3 {
 
 /*---MAIN---*/
 .main {
-<<<<<<< HEAD
     background: url('../imagenes/bg-textura.jpg');
-=======
-    background: url('../imagenes/bg-textura.jpeg');
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     background-repeat: repeat;
 }
 
@@ -123,7 +115,6 @@ header .texto h3 {
     float: right;
     box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.466);
 }
-<<<<<<< HEAD
 
 .main .acerca-de article h3 {
     font-size: 50px;
@@ -137,47 +128,25 @@ header .texto h3 {
     margin-bottom: 15px;
 }
 
-=======
-.main .acerca-de article h3{
-    font-size: 50px;
-    font-weight: 300;
-    margin-bottom: 40px;
-    
-}
-.main .acerca-de article p{
-    line-height: 28px;
-    margin-bottom: 15px;
-}
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
 /*---SECTION MENU---*/
 .main .menu {
     padding-top: 570px;
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
 
 .main .menu .titulo {
-=======
-.main .menu .titulo{
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     font-size: 40px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 40px;
 }
-<<<<<<< HEAD
 
 .main .menu .contenedor-menu,
 .main .menu .contenedor-menu2 {
-=======
-.main .menu .contenedor-menu,
-.main .menu .contenedor-menu2{
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     border: 1px solid black;
     background: transparent;
     padding: 10px;
     overflow: hidden;
-<<<<<<< HEAD
 
 }
 
@@ -188,44 +157,25 @@ header .texto h3 {
 }
 
 .main .menu article .categoria {
-=======
-   
-}
-.main .menu article{
-    padding: 20px;
-   width: 50%;
-   float: left;
-}
-.main .menu article .categoria{
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     text-align: center;
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 22px;
     border: 1px solid rgb(0, 0, 0);
 }
-<<<<<<< HEAD
 
 .main .menu .platos {
-=======
-.main .menu .platos{
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     margin-bottom: 30px;
     padding-bottom: 20px;
     border-bottom: 4px dotted black;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
 .main .menu .nombre {
-=======
-.main .menu .nombre{
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     font-size: 20px;
     margin-bottom: 15px;
     float: left;
 }
-<<<<<<< HEAD
 
 .main .menu .precio {
     font-size: 20px;
@@ -234,19 +184,10 @@ header .texto h3 {
 }
 
 .main .menu .descripcion {
-=======
-.main .menu .precio{
-    font-size: 20px;
-    margin-bottom: 15px;
-    float: right; 
-}
-.main .menu .descripcion{
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
     font-size: 16px;
     color: #676767;
     clear: both;
 }
-<<<<<<< HEAD
 
 .main .galeria {
     overflow: hidden;
@@ -258,22 +199,11 @@ header .texto h3 {
 
 }
 
-=======
-.main .galeria{
-    overflow: hidden;
-}
-.main .galeria .foto{
-    width: 25%;
-    float: left;
-    
-}
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
 .main .galeria .foto img {
     width: 100%;
     vertical-align: top;
     opacity: .7;
 }
-<<<<<<< HEAD
 
 .main .galeria .foto img:hover {
     opacity: 1;
@@ -345,8 +275,4 @@ footer .copyrigh {
     text-align: center;
     padding: 15px 0;
     color: #fff;
-=======
-.main .galeria .foto img:hover {
-   opacity: 1;
->>>>>>> d3309f2543580357e834c3ef49fc20d724340f3d
 }
